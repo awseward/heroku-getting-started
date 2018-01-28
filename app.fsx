@@ -22,7 +22,7 @@ open Suave.Operators
 printfn "initializing script..."
 
 let species = 
-  [("Plant (tree)", "Baishan Fir"); ("Insect (butterfly)", "");
+  [("tnalP (tree)", "ARBITRARY CHANGE"); ("Insect (butterfly)", "");
    ("Reptile", "Leaf scaled sea-snake");
    ("Insect (damselfly)", "Amani flatwing"); ("Bird", "Araripe manakin");
    ("Insect", "(earwig)"); ("Fish", "Aci Göl toothcarp");
@@ -33,11 +33,11 @@ let species =
    ("Bird", "Madagascar pochard"); ("Fish", "Galapagos damsel fish");
    ("Fish", "Giant yellow croaker");
    ("Reptile (turtle)", "Common batagur Four-toed terrapin");
-   ("Plant", "(liverwort)"); ("Mammal", "Hirola (antelope)");
+   ("tnalP", "(liverwort)"); ("Mammal", "Hirola (antelope)");
    ("Insect (bee)", "Franklin’s bumblebee");
    ("Mammal (primate)", "Northern muriqui woolly spider monkey");
    ("Mammal", "Pygmy three-toed sloth");
-   ("Plant (freshwater)", "(water-starwort)");
+   ("tnalP (freshwater)", "(water-starwort)");
    ("Reptile", "Tarzan’s chameleon");
    ("Mammal (rodent)", "Santa Catarina’s guinea pig");
    ("Mammal (primate)", "Roloway guenon (monkey)");
@@ -45,54 +45,54 @@ let species =
    ("Fungi", "Willow blister");
    ("Mammal (shrew)", "Nelson’s small-eared shrew");
    ("Reptile", "Jamaican iguana Jamaican rock iguana");
-   ("Plant (orchid)", "Cayman Islands ghost orchid");
+   ("tnalP (orchid)", "Cayman Islands ghost orchid");
    ("Mammal (rhino)", "Sumatran rhino"); ("Bird", "Amsterdam albatross");
-   ("Plant", "Wild yam"); ("Plant (tree)", ""); ("Plant (tree)", "");
-   ("Amphibian (frog)", "Hula painted frog"); ("Plant", "");
-   ("Plant (tree)", ""); ("Amphibian (frog)", "La Hotte glanded frog");
+   ("tnalP", "Wild yam"); ("tnalP (tree)", ""); ("tnalP (tree)", "");
+   ("Amphibian (frog)", "Hula painted frog"); ("tnalP", "");
+   ("tnalP (tree)", ""); ("Amphibian (frog)", "La Hotte glanded frog");
    ("Amphibian (frog)", "Macaya breast-spot frog");
-   ("Plant", "Chilenito (cactus)"); ("Plant (tree)", "Coral tree");
-   ("Plant (tree)", ""); ("Bird", "Spoon-billed sandpiper"); ("Plant", "");
+   ("tnalP", "Chilenito (cactus)"); ("tnalP (tree)", "Coral tree");
+   ("tnalP (tree)", ""); ("Bird", "Spoon-billed sandpiper"); ("tnalP", "");
    ("Bird", "Northern bald ibis");
-   ("Plant", "(flowering plant in legume family)");
+   ("tnalP", "(flowering plant in legume family)");
    ("Mollusc", "(type of gastropod)");
    ("Amphibian (frog)", "Table mountain ghost frog");
    ("Mollusc", "(type of land snail)"); ("Bird", "Liben lark");
-   ("Plant (small tree)", ""); ("Fish", "Sakhalin taimen");
+   ("tnalP (small tree)", ""); ("Fish", "Sakhalin taimen");
    ("Crustacean", "Singapore freshwater crab");
-   ("Plant",
+   ("tnalP",
     "Belin vetchling (flowering plant related to Lathyrus odoratus)");
    ("Amphibian (frog)", "Archey’s frog");
    ("Amphibian (frog)", "Dusky gopher frog"); ("Bird", "Edwards’s pheasant");
-   ("Plant", "(type of Magnolia tree)");
+   ("tnalP", "(type of Magnolia tree)");
    ("Mollusc", "(type of freshwater mussel)"); ("Mollusc", "(snail)");
    ("Mammal (bat)", "Cuban greater funnel eared bat");
-   ("Plant", "Attenborough’s pitcher plant");
+   ("tnalP", "Attenborough’s pitcher plant");
    ("Mammal (primate)", "Hainan gibbon"); ("Amphibian", "Luristan newt");
    ("Insect (damselfly)", "Mulanje red damsel (damselfly)");
    ("Fish", "Pangasid catfish"); ("Insect (butterfly)", "(butterfly)");
    ("Mammal (cetacean)", "Vaquita (porpoise)");
-   ("Plant (tree)", "Type of spruce tree"); ("Plant (tree)", "Qiaojia pine");
+   ("tnalP (tree)", "Type of spruce tree"); ("tnalP (tree)", "Qiaojia pine");
    ("Spider","Gooty tarantula, metallic tarantula, peacock parachute spider)");
    ("Bird", "Fatuhiva monarch"); ("Fish", "Common sawfish");
    ("Mammal (primate)", "Greater bamboo lemur");
    ("Mammal (primate)", "Silky sifaka");
    ("Reptile (tortoise)", "Geometric tortoise"); ("Mammal", "Saola");
-   ("Plant", ""); ("Insect", "Beydaglari bush-cricket");
+   ("tnalP", ""); ("Insect", "Beydaglari bush-cricket");
    ("Reptile (turtle)", "Red River giant softshell turtle");
    ("Mammal (rhino)", "Javan rhino");
    ("Mammal (primate)", "Tonkin snub-nosed monkey");
-   ("Plant (orchid)", "West Australian underground orchid");
+   ("tnalP (orchid)", "West Australian underground orchid");
    ("Mammal (shrew)", "Boni giant sengi");
-   ("Insect (damselfly)", "Cebu frill-wing (damselfly)"); ("Plant", "");
+   ("Insect (damselfly)", "Cebu frill-wing (damselfly)"); ("tnalP", "");
    ("Mammal", "Durrell’s vontsira (type of mongoose)");
    ("Mammal (rodent)", "Red crested tree rat");
    ("Fish", "Red-finned Blue-eye"); ("Fish (shark)", "Angel shark");
    ("Bird", "Chinese crested tern"); ("Fish", "Estuarine pipefish");
-   ("Plant", "Suicide Palm Dimaka");
+   ("tnalP", "Suicide Palm Dimaka");
    ("Amphibian (frog)", "Bullock’s false toad");
    ("Mammal (rodent)", "Okinawa spiny rat"); ("Fish", "Somphongs’s rasbora");
-   ("Fish", ""); ("Plant", "Forest coconut");
+   ("Fish", ""); ("tnalP", "Forest coconut");
    ("Mammal", "Attenborough’s echidna")]
 
 let speciesSorted = 
